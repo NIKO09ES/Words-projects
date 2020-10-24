@@ -16,7 +16,7 @@ export const QUERY_USER = gql`
 `;
 
 export const ME = gql`
-{
+query {
 me{  
   _id
   firstName
