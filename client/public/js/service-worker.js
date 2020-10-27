@@ -8,7 +8,7 @@ const FILES_TO_CACHE = [
     "../../src/pages/Signup.js",
 ]
 
-const APP_PREFIX = 'Words-projects';
+const APP_PREFIX = 'Words-projects-';
 const VERSION = 'version_01';
 const CACHE_NAME = APP_PREFIX + VERSION;
 
@@ -24,7 +24,7 @@ self.addEventListener('install', function (e) {
 self.addEventListener('activate', function (e) {
     e.waitUntil(
         caches.keys().then(function (keyList) {
-            let cacheKeeplist = keyList.filter(function (key) {
+            const cacheKeeplist = keyList.filter(function (key) {
                 return key.indexOf(APP_PREFIX);
             })
             // store current cache
