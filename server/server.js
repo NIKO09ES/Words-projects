@@ -58,6 +58,8 @@ app.post('/create-checkout-session/:value', async (req, res,) => {
     // cancel_url: 'https://example.com/cancel'
     success_url: `https://wordsprojects.herokuapp.com/success.html?session_id={CHECKOUT_SESSION_ID}`,
     cancel_url: `https://wordsprojects.herokuapp.com/canceled.html`,
+    // success_url: `${url}/success.html?session_id={CHECKOUT_SESSION_ID}`,
+    // cancel_url: `${url}/canceled.html`,
   });
 
   res.json({ id: session.id });
