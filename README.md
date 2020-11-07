@@ -8,9 +8,11 @@ Word Projects was built with the purpose of offering the users the opportunity t
 In today's world, we feel it’s essential for entrepreneurs to have a place to show off their ideas, and be eligible to receive donations to fund their projects as well.
 
 
-![Home Page](./client/src/assets/homepage.png)
+![Home Page](./client/src/assets/homepage.png
 
-### Visit the site! [Words-Projects](https://wordsprojects.herokuapp.com/)
+)
+
+### Visit the site! [Words-Projects](https://word-project1.herokuapp.com/)
 
 ## Table of Contents
   * [Installation](#installation)
