@@ -398,6 +398,10 @@ button.btnP{
     justify-content: center;
   }
 }
+/*.accordion>.card>.card-header{
+  background-color:#95d5b2;
+}*/
+
 
 @media screen and (max-width: 768px) {
   .card {
