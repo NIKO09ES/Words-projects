@@ -10,7 +10,7 @@ In today's world, we feel it’s essential for entrepreneurs to have a place to 
 
 ![Home Page](./client/src/assets/homepage.png)
 
-### Visit the site! [Words-Projects](https://wordsprojects.herokuapp.com/)
+### Visit the site! [Words-Projects](https://word-project1.herokuapp.com/)
 
 ## Table of Contents
   * [Installation](#installation)
